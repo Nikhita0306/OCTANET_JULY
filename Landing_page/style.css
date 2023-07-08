@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,200&family=Ysabeau+SC:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-size: 16px;
+  }
+  
+  .showPage {
+    background: url(paris.jpg)center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .showPage h1 {
+    color: #181717;
+    font-size: 3.5rem;
+  }
+  
+  .showPage p {
+    color: #161515;
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  
+  #section-1 {
+     text-align: center;
+     padding: 40px;
+  }
+  
+  #section-1 h1 {
+    margin-bottom: 20px;
+  }
+  
+  #section-2 {
+    margin-bottom: 20px;
+  }
+
+  #header1,#header2,#header3,#header4,#header5{
+    margin-left: 1%;
+    font-size: medium;
+    text-decoration: underline;
+  }
+  
+  #section-2 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .flex-columns1, .flex-columns2, .flex-columns3, .flex-columns4, .flex-columns5{
+    display: flex;
+    padding: 20px;
+  }
+
+  footer {
+    min-height: 150px;
+    background: #f6f6f6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+  }
